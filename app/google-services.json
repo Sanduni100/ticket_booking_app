@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325777164207",
+    "project_id": "transpo-ec640",
+    "storage_bucket": "transpo-ec640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325777164207:android:bb96e19bde0e9a7b82515a",
+        "android_client_info": {
+          "package_name": "lk.javainstitute.transpo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFL8iNJuS0E-35lyuH8rKQbpkzmXt3YkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
