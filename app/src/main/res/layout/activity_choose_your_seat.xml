@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseYourSeatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        tools:context=".SeatActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.85"
+        android:background="@color/purple"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Details"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:layout_weight="1.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvSeat_toID"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:paddingRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/from_to_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center|top"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvSeat_fromID"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Depart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/tvSeat_timeID"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:textColor="@color/purple"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="x"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/purple"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="**/**/****"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Passengers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvSeat_passID"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/purple"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Seat No."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_tripSeatNoID"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/purple"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="NA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Ticket Price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvSeat_priceID"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/purple"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="12dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="Select a seat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <GridView
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:numColumns="4"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="10dp"
+                android:id="@+id/gridSeatID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1.7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnCheckoutID"
+
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Checkout"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

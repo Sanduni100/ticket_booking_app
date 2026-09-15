@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Transpo</string>
+    <string name="app_version">V 1.0.0</string>
+    <string name="app_copy">@ Transpo 2023</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">325777164207-82mojjp3npmpq34semn65gal65opn8jr.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">224145937374332</string>
+    <string name="fb_login_protocol_scheme">fb224145937374332</string>
+    <string name="facebook_client_token">15c5df45b601b1fbc6bceeb00915c389</string>
+
+
+
+<!--    <string name="channel_id">RH-109000</string>-->
+
+</resources>
